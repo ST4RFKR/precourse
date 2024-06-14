@@ -1,4 +1,4 @@
-console.log(1)
+
 let passportWithAddress = {
     name: "Petr",
     surname: "Petrov",
