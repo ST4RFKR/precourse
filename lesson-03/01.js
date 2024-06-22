@@ -1,6 +1,12 @@
 const colors = ["синий", "черный", "зеленый", "красный", "желтый", "зеленый"];
 
 function createColorString() {
-    return colors.filter(color => color === 'черный' || color === 'красный' || color === 'желтый').join('-');
+   
+    let filteredColors = colors.filter(color => color === 'черный' || color === 'красный' || color === 'желтый');
+    
+    
+    let result = filteredColors.join('-');
+    
+    return result;
 }
-console.log(createColorString())
+console.log(createColorString());
